@@ -1,13 +1,13 @@
 # Activité Pratique N°2 — Modèles génératifs avec PyTorch
 
-**Enseignant :** Mohamed YOUSSFI  
 **Matière :** IA Générative  
 **Année universitaire :** 2026–2027  
-**Nom :** À compléter  
-**Prénom :** À compléter  
-**Groupe :** À compléter
+**Nom :**Dalouch
+**Prénom :** Amal  
+**Groupe :** G1
 
-**Lien GitHub :**
+**Lien GitHub :**https://github.com/Amal123-cey/tp2-modeles-generatifs-pytorch..git
+
 
 Ce travail compare, sur MNIST, un modèle discriminatif et deux modèles génératifs :
 
