@@ -1,0 +1,10 @@
+Mesure,Valeur observée
+Accuracy du classifieur,96.31 %
+Images correctement classées,9631 / 10000
+Images mal classées,369 / 10000
+Précision / rappel / F1 macro,0.9629 / 0.9627 / 0.9628
+"MSE de reconstruction de l'AE, par pixel",0.0432
+MSE par pixel du VAE avec z = mu,0.0374
+"BCE de reconstruction du VAE, par image",135.73
+"Divergence KL du VAE, par image",6.51
+Époques exécutées,"classifieur 3, AE 5, VAE 20"

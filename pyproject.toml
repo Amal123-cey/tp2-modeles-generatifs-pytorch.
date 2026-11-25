@@ -1,0 +1,32 @@
+[project]
+name = "tp2-modeles-generatifs-pytorch"
+version = "0.1.0"
+description = "Activité pratique n°2 : modèles génératifs MNIST avec PyTorch (classifieur, autoencodeur, VAE)."
+readme = "README.md"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.11.2",
+    "nbconvert>=7.17.2",
+    "numpy>=2.4.6",
+    "pandas>=3.1.1",
+    "scikit-learn>=1.9.1",
+    "torch>=2.15.0",
+    "torcheval>=0.0.7",
+    "torchvision>=0.29.2",
+    "tqdm>=4.70.1",
+]
+
+[tool.uv]
+package = false
+required-environments = ["sys_platform == 'win32' and platform_machine == 'AMD64'"]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }
+torchvision = { index = "pytorch-cpu" }
